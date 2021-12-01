@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #D6D6D6;
+}
+/**HEADER CSS**/
+
+.headerContent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5rem;
+    background-color: black;
+   
+   
+}
+
+.headerLogo {
+    display: flex;
+    height: 5rem;
+    background-color: black;
+    ;
+}
+
+.navContent {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 60rem;
+}
+
+.navList {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    border: 1px solid black;
+   
+}
+
+.navListItem {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: white;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #FFD100;
+}
+
+/**MAIN CSS**/
+
+.main {
+    background-color: #FFEE32;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 4rem;
+}
+
+.homeMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hMain {
+    font-family: 'Comforter', 'Roboto', sans-serif;
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.pMain {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 1.7rem;
+    padding: 0;
+
+}
+
+#video {
+    display: flex;
+    width: 560px;
+    height: 310px;
+    justify-content: center;
+    box-shadow: 10px 5px 5px black;
+}
+/**SECTION ABOUT**/
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hAbout {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.hAboutText {
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.aboutImg {
+    display: flex;
+    margin-top: 7rem;
+    
+    
+}
+.imgMembers {
+    height: 35rem;
+    width: 70rem;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 5px 5px black;
+}
+
+/**SECTION DISCOGRAPHY**/
+
+.discography {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hDiscography {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.listDiscography {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.itemDiscography {
+    display: flex;
+    margin: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.disc1Img {
+    width: 18rem;
+    height: 18rem;
+    box-shadow: 10px 5px 5px black;
+}
+
+.disc2Img {
+    width: 18rem;
+    height: 18rem;
+    box-shadow: 10px 5px 5px black;
+}
+
+.disc3Img {
+    width: 18rem;
+    height: 18rem;
+    box-shadow: 10px 5px 5px black;
+}
+
+.disc4Img {
+    width: 18rem;
+    height: 18rem;
+    box-shadow: 10px 5px 5px black;
+}
+
+/**SECTION SUBMIT**/
+.submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.hSubmit {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.emailInput {
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.submitButton {
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
+/**Footer**/
+
+.footerContent {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.contacto {
+    margin-right: 2rem;
+}
